@@ -62,5 +62,4 @@ lerna-debug.log*
 arweave-keyfile*
 
 .env
-
-note
+.note
