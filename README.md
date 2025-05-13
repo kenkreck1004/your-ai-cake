@@ -7,7 +7,7 @@
 * 🧠 **Personality Quiz**: Answer questions to reveal your personality.
 * 🖼️ **AI Cake Generator**: AI creates a cake image reflecting your traits.
 * 📃 **Personalized Description**: Get a unique explanation based on your personality.
-* 🪙 **NFT Minting**: Mint your cake image as an NFT for 0.01 SUI.
+* 🖼️ **NFT Minting**: Mint your cake image as an NFT for 0.01 SUI.
 * 🖼️ **Gallery View**: Browse all minted AI cake NFTs.
 
 ## 🛠️ Tech Stack
