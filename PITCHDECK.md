@@ -39,14 +39,29 @@ Unlike static NFT collections, **no two AI Cake NFTs are ever the same** — eac
 
 ```mermaid
 graph LR
-    A[User] --> B[Next.js Frontend]
-    B <--> C[SUI Wallet]
-    B --> D[Quiz Engine + UI]
-    D --> E[AI ImageRouter API]
-    D --> F[Cerebras AI for text description]
-    E --> G[NFT Minting]
-    G --> H[Pinata IPFS]
-    G --> I[Sui Smartcontract]
+    A([👤 User]) --> B[💻 Next.js Frontend]
+    B <--> C([🔐 SUI Wallet])
+    B --> D[🧠 Quiz Engine + UI]
+    D --> E[🖼️ ImageRouter API for Image Generator]
+    D --> F[📝 Cerebras AI for Text Description]
+    E --> G[🖼️ NFT Minting Handler]
+    G --> H[📦 IPFS Pinata Storage]
+    G --> I[🧾 SUI Smart Contract]
+
+    %% Assign classes
+    class A user;
+    class B,C frontend;
+    class D quiz;
+    class E,F ai;
+    class G,H,I backend;
+
+    %% Define styles
+    classDef user fill:#e3f2fd,stroke:#2196f3,stroke-width:2px;
+    classDef frontend fill:#fff3e0,stroke:#fb8c00,stroke-width:2px;
+    classDef quiz fill:#e8f5e9,stroke:#43a047,stroke-width:2px;
+    classDef ai fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px;
+    classDef backend fill:#ede7f6,stroke:#5e35b1,stroke-width:2px;
+
 ```
 
 ## 📈 Market Potential
